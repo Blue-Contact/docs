@@ -88,7 +88,7 @@ Once the plugin is installed — whether you installed it for yourself or picked
 
 3. Claude will:
    - Verify the MCP connection to `https://query.bluecontact.com/mcp` and prompt you to authenticate via OAuth if needed.
-   - Confirm the two available Athena catalogs (`AwsDataCatalog` for consumer/B2B/property/movers, `lsc_data_catalog` for dealership data).
+   - Confirm the data catalogs available to your account.
    - Run a quick test query to confirm connectivity is live.
    - Load the schema so it knows what data you can query.
    - Ask if you'd like the guided tour — say **"Yes — give me the tour"** to hand off to `/blue-contact:getting-started`, which walks you through live examples tailored to your available data.
